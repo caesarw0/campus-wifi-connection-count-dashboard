@@ -20,7 +20,7 @@ filtered_data_reactive1 <- reactive({
 output$mymap_1d <- renderLeaflet({
   leaflet() %>%
     addTiles(urlTemplate="https://api.hkmapservice.gov.hk/osm/xyz/basemap/WGS84/tile/{z}/{x}/{y}.png?key=584b2fa686f14ba283874318b3b8d6b0")%>%
-    addTiles(urlTemplate="https://api.hkmapservice.gov.hk/osm/xyz/label-tc/WGS84/tile/{z}/{x}/{y}.png?key=584b2fa686f14ba283874318b3b8d6b0")%>%
+    addTiles(urlTemplate="https://api.hkmapservice.gov.hk/osm/xyz/label-en/WGS84/tile/{z}/{x}/{y}.png?key=584b2fa686f14ba283874318b3b8d6b0")%>%
     clearShapes() %>%
     setView(114.179747, 22.304247, zoom = 18)
 })
