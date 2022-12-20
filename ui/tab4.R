@@ -41,6 +41,8 @@ fluidPage(
     box(
       width = 4,
       title ="Click-by-building Result",
+      "(Please click the building block on the map to update the line chart)",
+      br(),
       status = "success",
       withSpinner(uiOutput('maptb_1d'), type=3, color.background = "white")
       
