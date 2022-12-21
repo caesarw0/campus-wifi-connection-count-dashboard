@@ -9,6 +9,7 @@ This data dashboard provides information about the crowd data in the Hong Kong P
 - shinydashboard==0.7.2
 - shinythemes==1.2.0
 - shinycssloaders==1.0.0
+- sqldf==0.4.11
 - summarytools==1.0.1
 - scales==1.2.1
 - tidyverse==1.3.2
