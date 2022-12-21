@@ -30,6 +30,8 @@ The slider bar selection is aggregated per day. Click the building block on the 
 
 4. The line chart and bar chart is updated as per request by clicking the building block on the map.
 
+5. The overview data showing the total record count and top 10 frequently connected buildings in the filtered DateTime.
+
 ### 1-day tab
 Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
 
