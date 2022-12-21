@@ -4,11 +4,12 @@ The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shi
 
 ## Dashboard Description
 
-This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
+The dashboard is built using R Shiny (web), leaflet (map), and Plotly (data visualization). It provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
 
+#### Overview
 ![overview](doc_img/overview.png)
 
-KPI on the top row
+#### KPI on the top row
 ![toprow](doc_img/datacard.png)
 The data card shown in the top row listed the KPI in the selected filtering date period. Information includes total record count, unique device count, most frequent building, etc.
 
