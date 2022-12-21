@@ -1,32 +1,67 @@
 # campus-wifi-connection-count-dashboard
 
-This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map.
+The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)).
+
+## Dashboard Description
+
+This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
+
+![overview](doc_img/overview.png)
+
+KPI on the top row
+![toprow](doc_img/datacard.png)
+The data card shown in the top row listed the KPI in the selected filtering date period. Information includes total record count, unique device count, most frequent building, etc.
+
+
+Two pages are showing the data in a different dimensions. 
+
+### 6 months tab
+The slider bar selection is aggregated per day. Click the building block on the map to show statistics in the particular building.
+
+![6month](doc_img/6month_steps.png)
+
+
+#### Dashboard Usage
+
+1. Drag the slider bar to filter the data in a specific period, or drag the start and end date.
+
+2. In the dropdown menu, select the desired color scheme for the map.
+
+3. Click one of the building blocks for the click-by-building data to refresh the chart.
+
+4. The line chart and bar chart is updated as per request by clicking the building block on the map.
+
+5. The overview data showing the total record count and top 10 frequently connected buildings in the filtered DateTime.
+
+### 1-day tab
+Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
+
 
 ## File Structure
 
 ```bash
 │   .gitignore
-│   app.R
-│   building.dbf
-│   building.geojson
-│   building.prj
-│   building.shp
-│   building.shx
+│   app.R               # main Shiny application script
+│   building.dbf        # map related files
+│   building.geojson    # map related files
+│   building.prj        # map related files
+│   building.shp        # map related files
+│   building.shx        # map related files
 │   README.md
 │
-├───focusGroupStudent
+├───focusGroupStudent   # data folder
 │       df_allStudent.csv
 │
-├───server
+├───server              # server folder
 │       tab_1day.R
 │       tab_6months.R
 │
-├───ui
+├───ui                  # ui folder
 │       polyu.jpg
 │       tab_1day.R
 │       tab_6months.R
 │
-└───www
+└───www                 # image folder
         logo3.png
         polyu.jpg
         polyu2.png
