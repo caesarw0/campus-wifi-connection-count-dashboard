@@ -2,13 +2,44 @@
 
 This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map.
 
-# Dependencies
+## File Structure
+
+```bash
+│   .gitignore
+│   app.R
+│   building.dbf
+│   building.geojson
+│   building.prj
+│   building.shp
+│   building.shx
+│   README.md
+│
+├───focusGroupStudent
+│       df_allStudent.csv
+│
+├───server
+│       tab_1day.R
+│       tab_6months.R
+│
+├───ui
+│       polyu.jpg
+│       tab_1day.R
+│       tab_6months.R
+│
+└───www
+        logo3.png
+        polyu.jpg
+        polyu2.png
+```
+
+## Dependencies
 
 - shiny==1.7.2
 - shinyjs==2.1.0
 - shinydashboard==0.7.2
 - shinythemes==1.2.0
 - shinycssloaders==1.0.0
+- sqldf==0.4.11
 - summarytools==1.0.1
 - scales==1.2.1
 - tidyverse==1.3.2
