@@ -1,6 +1,40 @@
 # campus-wifi-connection-count-dashboard
 
-This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map.
+## Dashboard Description
+
+This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
+
+Overview
+![overview](doc_img/overview.png)
+
+KPI on the top row
+![toprow](doc_img/datacard.png)
+The data card shown in the top row listed the KPI in the selected filtering date period. Information includes total record count, unique device count, most frequent building, etc.
+
+
+Two pages are showing the data in a different dimensions. 
+
+### 6 months tab
+The slider bar selection is aggregated per day. Click the building block on the map to show statistics in the particular building.
+
+![6month](doc_img/6month_steps.png)
+
+
+#### Dashboard Usage
+
+1. Drag the slider bar to filter the data in a specific period, or drag the start and end date.
+
+2. In the dropdown menu, select the desired color scheme for the map.
+
+3. Click one of the building blocks for the click-by-building data to refresh the chart.
+
+4. The line chart and bar chart is updated as per request by clicking the building block on the map.
+
+### 1-day tab
+Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
+
+
+[Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)
 
 ## File Structure
 
