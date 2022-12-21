@@ -1,10 +1,11 @@
 # campus-wifi-connection-count-dashboard
 
+The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)).
+
 ## Dashboard Description
 
 This data dashboard provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
 
-Overview
 ![overview](doc_img/overview.png)
 
 KPI on the top row
@@ -35,8 +36,6 @@ The slider bar selection is aggregated per day. Click the building block on the 
 ### 1-day tab
 Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
 
-
-[Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)
 
 ## File Structure
 
