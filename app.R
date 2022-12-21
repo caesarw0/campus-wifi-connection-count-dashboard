@@ -56,8 +56,8 @@ ui <- dashboardPage(
   dashboardBody(
     # define tabItems with separated UI R script
     tabItems(
-      tabItem(tabName = "tab_3", source(file.path("ui", "tab3.R"),  local = TRUE)$value),
-      tabItem(tabName = "tab_4", source(file.path("ui", "tab4.R"),  local = TRUE)$value)
+      tabItem(tabName = "tab_3", source(file.path("ui", "tab_6months.R"),  local = TRUE)$value),
+      tabItem(tabName = "tab_4", source(file.path("ui", "tab_1day.R"),  local = TRUE)$value)
     ),
     # enable shinyjs
     shinyjs::useShinyjs(),
@@ -83,8 +83,8 @@ ui <- dashboardPage(
 server <- function(input, output, session) {
  
   # loading server function for each tab item
-  source(file.path("server", "tab3.R"),  local = TRUE)$value
-  source(file.path("server", "tab4.R"),  local = TRUE)$value
+  source(file.path("server", "tab_6months.R"),  local = TRUE)$value
+  source(file.path("server", "tab_1day.R"),  local = TRUE)$value
 }
 
 # define shinyApp
