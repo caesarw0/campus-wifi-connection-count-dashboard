@@ -6,27 +6,27 @@ This data dashboard provides information about the crowd data in the Hong Kong P
 
 ```bash
 │   .gitignore
-│   app.R
-│   building.dbf
-│   building.geojson
-│   building.prj
-│   building.shp
-│   building.shx
+│   app.R               # main Shiny application script
+│   building.dbf        # map related files
+│   building.geojson    # map related files
+│   building.prj        # map related files
+│   building.shp        # map related files
+│   building.shx        # map related files
 │   README.md
 │
-├───focusGroupStudent
+├───focusGroupStudent   # data folder
 │       df_allStudent.csv
 │
-├───server
+├───server              # server folder
 │       tab_1day.R
 │       tab_6months.R
 │
-├───ui
+├───ui                  # ui folder
 │       polyu.jpg
 │       tab_1day.R
 │       tab_6months.R
 │
-└───www
+└───www                 # image folder
         logo3.png
         polyu.jpg
         polyu2.png
