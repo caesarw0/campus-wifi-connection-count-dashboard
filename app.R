@@ -4,7 +4,7 @@ library(shinydashboard) # dashboard layout for shiny
 library(shinythemes)    # themes for shiny
 library(shinycssloaders)
 
-library(sqldf)          # for running SQL command
+library(sqldf)          # run SQL query on a Data frame
 library(summarytools)   # data summary
 library(scales)         # plot formatting scale
 library(tidyverse)      # data manipulation
