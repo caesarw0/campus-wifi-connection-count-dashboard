@@ -1,4 +1,6 @@
-# campus-wifi-connection-count-dashboard
+# Crowd Viewer
+
+Campus Wifi Connection Count Dashboard
 
 The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)).
 
