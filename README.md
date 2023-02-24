@@ -1,4 +1,5 @@
 # Crowd Viewer
+
 Campus Wifi Connection Count Dashboard
 
 The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shinyapps.io/campus-wifi-connection-count-dashboard/)).
@@ -7,23 +8,24 @@ The data dashboard is on Shinyappio.com, ([Dashboard URL](https://caesarwong.shi
 
 The dashboard is built using R Shiny (web), leaflet (map), and Plotly (data visualization). It provides information about the crowd data in the Hong Kong Polytechnic University with an interactive map. The application covers the Wifi connection data from May 1, 2019 to Oct 31, 2019. The data is taken in a 10 mins intervals per record.
 
-#### Overview
-![overview](doc_img/overview.png)
+## Overview
 
-#### KPI on the top row
+![overview](doc_img/crowd_viewer_demo.gif)
+
+### KPI on the top row
+
 ![toprow](doc_img/datacard.png)
 The data card shown in the top row listed the KPI in the selected filtering date period. Information includes total record count, unique device count, most frequent building, etc.
 
-
-Two pages are showing the data in a different dimensions. 
+Two pages are showing the data in a different dimensions.
 
 ### 6 months tab
+
 The slider bar selection is aggregated per day. Click the building block on the map to show statistics in the particular building.
 
 ![6month](doc_img/6month_steps.png)
 
-
-#### Dashboard Usage
+## Dashboard Usage
 
 1. Drag the slider bar to filter the data in a specific period, or drag the start and end date.
 
@@ -35,9 +37,9 @@ The slider bar selection is aggregated per day. Click the building block on the 
 
 5. The overview data showing the total record count and top 10 frequently connected buildings in the filtered DateTime.
 
-### 1-day tab
-Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
+## 1-day tab
 
+Users can filter the data on a specific date within the 6 months period. The slider bar selection is aggregated per 10 mins. Click the building block on the map to show statistics in the particular building.
 
 ## File Structure
 
